@@ -2,7 +2,7 @@
 
 ## Ex 1: [ch5_ex1.sql](ch5_ex1.sql)
 
-***~This excersice used an statement that created a new row in a table `terms`
+***~This excersice used an statement that created a new row in a table `terms`***
 
 ```
 SELECT * FROM terms;
@@ -15,7 +15,7 @@ VALUES (6, 'Net due 120 days', 120);
 ---
 ## Ex 2: [ch5_ex2.sql](ch5_ex2.sql)
 
-***~This excersize updated a row with modified data*
+***~This excersize updated a row with modified data***
 
 
 ```
