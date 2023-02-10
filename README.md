@@ -2,6 +2,8 @@
 
 ## Exercise 1: [ch5_ex1.sql](ch5_ex1.sql)
 
+This excersice used an statement that created a new row in a table
+
 ```
 SELECT * FROM terms;
 INSERT INTO terms (terms_id, terms_description, terms_due_days)
@@ -10,10 +12,10 @@ VALUES (6, 'Net due 120 days', 120);
 
 ![Results](ch5_ex1_proof.png)
 
-This excersice used an 'insert' statement that created a new row in a table
-
 ---
 ## Exercise 2: [ch5_ex2.sql](ch5_ex2.sql)
+
+This excersize updated a row with modified data
 
 ```
 UPDATE terms
@@ -23,10 +25,11 @@ WHERE terms_id = 6;
 
 ![Results](ch5_ex2_proof.png)
 
-This excersize `UPDATED` a row with modified data
 
 ---
 ## Exercise 3: [ch5_ex3.sql](ch5_ex3.sql)
+
+I deleted the 6th row from the table
 
 ```
 DELETE FROM terms WHERE terms_id = 6
@@ -34,10 +37,10 @@ DELETE FROM terms WHERE terms_id = 6
 
 ![Results](ch5_ex3_proof.png)
 
-I deleted the 6th row from the table
-
 ---
 ## Exercise 4: [ch5_ex4.sql](ch5_ex4.sql)
+
+I INSERTED new data into an existing row
 
 ```
 SELECT * FROM ap.invoices;
@@ -48,10 +51,10 @@ INSERT INTO invoices VALUES
 
 ![Results](ch5_ex4_proof.png)
 
-I INSERTED new data into an existing row
-
 ---
 ## Exercise 5: [ch5_ex5.sql](ch5_ex5.sql)
+
+I modified more data from a different table
 
 ```
 SELECT * FROM ap.invoice_line_items;
@@ -62,10 +65,10 @@ INSERT INTO invoice_line_items VALUES
 
 ![Results](ch5_ex5_proof.png)
 
-I modified more data from a different table
-
 ---
 ## Exercise 6: [ch5_ex6.sql](ch5_ex6.sql)
+
+In this example, I assigned new credit totals by multiplying a decimal integer by an existing number in the `credit_totals` field
 
 ```
 SELECT * FROM ap.invoices;
@@ -78,10 +81,10 @@ WHERE invoice_id = 116;
 
 ![Results](ch5_ex6_proof.png)
 
-In this example, I assigned new credit totals by multiplying an integer by an existing number in the credit_totals fieild
-
 ---
 ## Exercise 7: [ch5_ex7.sql](ch5_ex7.sql)
+
+I updated data in a field by setting a new integer to a specified `vendor_id`
 
 ```
 SELECT * FROM ap.vendors;
@@ -92,10 +95,10 @@ WHERE vendor_id = 44
 
 ![Results](ch5_ex7_proof.png)
 
-I updated data in a field by setting a new integer to a specified vendor_id
-
 ---
 ## Exercise 8: [ch5_ex8.sql](ch5_ex8.sql)
+
+This was an interesting one becuase I modified data in the `invoice` table by referencing information from the `vendors` table
 
 ```
 SELECT * FROM ap.invoices;
@@ -109,10 +112,10 @@ FROM vendors WHERE default_terms_id =2);
 
 ![Results](ch5_ex8_proof.png)
 
-This was an interesting one becuase I modified data in the invoice table by referencing information from the vendors table
-
 ---
 ## Exercise 9: [ch5_ex9.sql](ch5_ex9.sql)
+
+In this excercise, we deleted the rows that we added to tables from the Ch.5 examples
 
 ```
 SELECT * FROM ap.invoices;
@@ -126,5 +129,3 @@ WHERE invoice_id = 116;
 ```
 
 ![Results](ch5_ex9_proof.png)
-
-This example we deleted the rows that we added to tables from the Ch.5 examples
