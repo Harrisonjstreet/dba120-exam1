@@ -1,4 +1,5 @@
 # DBA-120-OA! Exam 1
+`#ffffff`
 
 ## Ex 1: [ch5_ex1.sql](ch5_ex1.sql)
 
@@ -6,7 +7,6 @@
 ``
 
 ```
-`#ffffff`
 SELECT * FROM terms;
 INSERT INTO terms (terms_id, terms_description, terms_due_days)
 VALUES (6, 'Net due 120 days', 120);
