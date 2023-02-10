@@ -1,4 +1,4 @@
-#EXAM 1 for DBA-120-OA1
+# EXAM 1 for DBA-120-OA1
 
 ## Ex 1: [ch5_ex1.sql](ch5_ex1.sql)
 
