@@ -2,7 +2,8 @@
 
 ## Exercise 1: [ch5_ex1.sql](ch5_ex1.sql)
 
-This excersice used an statement that created a new row in a table
+~This excersice used an statement that created a new row in a table `terms`
+
 
 ```
 SELECT * FROM terms;
@@ -15,7 +16,8 @@ VALUES (6, 'Net due 120 days', 120);
 ---
 ## Exercise 2: [ch5_ex2.sql](ch5_ex2.sql)
 
-This excersize updated a row with modified data
+~This excersize updated a row with modified data
+
 
 ```
 UPDATE terms
@@ -29,7 +31,8 @@ WHERE terms_id = 6;
 ---
 ## Exercise 3: [ch5_ex3.sql](ch5_ex3.sql)
 
-I deleted the 6th row from the table
+~I deleted the 6th row from the table
+
 
 ```
 DELETE FROM terms WHERE terms_id = 6
@@ -40,7 +43,8 @@ DELETE FROM terms WHERE terms_id = 6
 ---
 ## Exercise 4: [ch5_ex4.sql](ch5_ex4.sql)
 
-I INSERTED new data into an existing row
+~I inserted new data into an existing row
+
 
 ```
 SELECT * FROM ap.invoices;
@@ -54,7 +58,8 @@ INSERT INTO invoices VALUES
 ---
 ## Exercise 5: [ch5_ex5.sql](ch5_ex5.sql)
 
-I modified more data from a different table
+~I modified more data from a different table
+
 
 ```
 SELECT * FROM ap.invoice_line_items;
@@ -68,7 +73,8 @@ INSERT INTO invoice_line_items VALUES
 ---
 ## Exercise 6: [ch5_ex6.sql](ch5_ex6.sql)
 
-In this example, I assigned new credit totals by multiplying a decimal integer by an existing number in the `credit_totals` field
+~In this example, I assigned new credit totals by multiplying a decimal integer by an existing number in the `credit_totals` field
+
 
 ```
 SELECT * FROM ap.invoices;
@@ -84,7 +90,8 @@ WHERE invoice_id = 116;
 ---
 ## Exercise 7: [ch5_ex7.sql](ch5_ex7.sql)
 
-I updated data in a field by setting a new integer to a specified `vendor_id`
+~I updated data in a field by setting a new integer to a specified `vendor_id`
+
 
 ```
 SELECT * FROM ap.vendors;
@@ -98,7 +105,8 @@ WHERE vendor_id = 44
 ---
 ## Exercise 8: [ch5_ex8.sql](ch5_ex8.sql)
 
-This was an interesting one becuase I modified data in the `invoice` table by referencing information from the `vendors` table
+~This was an interesting one becuase I modified data in the `invoice` table by referencing information from the `vendors` table
+
 
 ```
 SELECT * FROM ap.invoices;
@@ -115,7 +123,8 @@ FROM vendors WHERE default_terms_id =2);
 ---
 ## Exercise 9: [ch5_ex9.sql](ch5_ex9.sql)
 
-In this excercise, we deleted the rows that we added to tables from the Ch.5 examples
+~In this excercise, we deleted the rows that we added to tables from the Ch.5 examples
+
 
 ```
 SELECT * FROM ap.invoices;
