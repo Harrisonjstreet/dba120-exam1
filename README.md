@@ -2,7 +2,7 @@
 
 ## Ex 1: [ch5_ex1.sql](ch5_ex1.sql)
 
-***~This excersice used an statement that created a new row in a table `terms`***
+***~This excersice used an statement that created a new row in a table*** `terms`
 
 ```
 SELECT * FROM terms;
