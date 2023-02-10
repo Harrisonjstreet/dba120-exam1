@@ -2,7 +2,7 @@
 
 ## Exercise 1: [ch5_ex1.sql](ch5_ex1.sql)
 
-~This excersice used an statement that created a new row in a table `terms`
+*~This excersice used an statement that created a new row in a table `terms`*
 
 
 ```
@@ -16,7 +16,7 @@ VALUES (6, 'Net due 120 days', 120);
 ---
 ## Exercise 2: [ch5_ex2.sql](ch5_ex2.sql)
 
-~This excersize updated a row with modified data
+*~This excersize updated a row with modified data*
 
 
 ```
@@ -31,7 +31,7 @@ WHERE terms_id = 6;
 ---
 ## Exercise 3: [ch5_ex3.sql](ch5_ex3.sql)
 
-~I deleted the 6th row from the table
+*~I deleted the 6th row from the table*
 
 
 ```
@@ -43,7 +43,7 @@ DELETE FROM terms WHERE terms_id = 6
 ---
 ## Exercise 4: [ch5_ex4.sql](ch5_ex4.sql)
 
-~I inserted new data into an existing row
+*~I inserted new data into an existing row*
 
 
 ```
@@ -58,7 +58,7 @@ INSERT INTO invoices VALUES
 ---
 ## Exercise 5: [ch5_ex5.sql](ch5_ex5.sql)
 
-~I modified more data from a different table
+*~I modified more data from a different table*
 
 
 ```
@@ -73,7 +73,7 @@ INSERT INTO invoice_line_items VALUES
 ---
 ## Exercise 6: [ch5_ex6.sql](ch5_ex6.sql)
 
-~In this example, I assigned new credit totals by multiplying a decimal integer by an existing number in the `credit_totals` field
+*~In this example, I assigned new credit totals by multiplying a decimal integer by an existing number in the `credit_totals` field*
 
 
 ```
@@ -90,7 +90,7 @@ WHERE invoice_id = 116;
 ---
 ## Exercise 7: [ch5_ex7.sql](ch5_ex7.sql)
 
-~I updated data in a field by setting a new integer to a specified `vendor_id`
+*~I updated data in a field by setting a new integer to a specified `vendor_id`*
 
 
 ```
@@ -105,7 +105,7 @@ WHERE vendor_id = 44
 ---
 ## Exercise 8: [ch5_ex8.sql](ch5_ex8.sql)
 
-~This was an interesting one becuase I modified data in the `invoice` table by referencing information from the `vendors` table
+*~This was an interesting one becuase I modified data in the `invoice` table by referencing information from the `vendors` table*
 
 
 ```
