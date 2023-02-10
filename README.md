@@ -11,3 +11,4 @@ VALUES (6, 'Net due 120 days', 120);
 ![Results](ch5_ex1_proof.png)
 
 This excersice used an 'insert' statement that created a new row in a table
+``` 
